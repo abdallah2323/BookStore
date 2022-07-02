@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: #495057;
+    font-family: 'Poppins' , sans-serif;
+    scroll-behavior: smooth;
+}
+label,
+        li,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            color: #fff;
+}
+h1
+{
+    margin-left: 550px;
+    text-transform: uppercase;
+}
+.container
+{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    height: 450px;
+    width: 900px;
+    padding: 50px;
+    margin-left: 200px;
+}
+.control
+{
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #313131;
+    background: none;
+    font-size: 18px;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #fff;
+    transition: 0.5s;
+    padding-left: 30px;
+}
+.control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+
+    border-bottom: 2px solid #495057;
+    outline: 0;
+}
+.control:hover {
+    border-bottom: 2px solid #495057;
+    outline: none;
+    border-color: none;
+}
+.control.one
+{
+    width: 300px;
+}
+.control.two
+{
+    width: 300px;
+}
+.control.three
+{
+    width: 300px;
+    height: 180px;
+}
+.control.four
+{
+    width: 300px;
+}
+.control.five
+{
+    width: 150px;
+}
+.control.six
+{
+    width: 120px;
+    margin-left: 20px;
+}
+.control.seven
+{
+    width: 350px;
+}
+.control.eight
+{
+    width: 350px;
+}
+.control.nine
+{
+    width: 150px;
+}
+.control.ten
+{
+    width: 150px;
+    margin-left: 20px;
+}
+.second 
+{
+    margin-left: 100px;
+}
+.second h3
+{
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+img
+{
+    width: 330px;
+    height: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.third
+{
+    display: flex;
+
+}
+.third form 
+{
+    margin-top: 300px;
+    margin-left: -270px;
+}
+.control.eleven
+{
+    height: 15px;
+}
+.third a
+{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #495057;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
